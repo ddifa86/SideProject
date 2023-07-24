@@ -1,1 +1,0 @@
-C:\Users\KTR\AppData\Local\Programs\Python\Python310\python.exe "D:\5.SideProject\GitCommitHistory\main.py" 10 > log.txt
