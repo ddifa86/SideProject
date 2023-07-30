@@ -7,7 +7,7 @@ import re
 import sys
 
 # GitHub API 접근을 위한 개인 액세스 토큰
-ACCESS_TOKEN = "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"
+ACCESS_TOKEN = "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"
 
 # 조회할 GitHub 저장소 정보
 OWNER = "vmscloud"
@@ -125,7 +125,7 @@ for commit in commits:
     else:
         continue
 
-   # add_commit_to_notion(author, date, title, message, hash,link)
+    add_commit_to_notion(author, date, title, message, hash,link)
    # break
 
 print("end commits upload!")
